@@ -2,13 +2,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .Header{
     padding-left: 10px;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(42, 68, 111);
-    height: fit-content;
+    height: 100px;
+    position: relative;
     color: white;
     font-size: 50px;
     text-align: left;
@@ -16,6 +18,23 @@
     padding-bottom: 5px;
 }
 
+.OrganisationName{
+    position: absolute;
+    top: 20px;
+}
+
+.SuryaLogo{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.SuryaLogo img{
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
 .GrayLine{
     height: 1px;
     background-color: gray;
