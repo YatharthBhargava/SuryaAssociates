@@ -1,0 +1,397 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(42, 68, 111);
+    height: fit-content;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.GrayLine{
+    height: 1px;
+    background-color: gray;
+}
+
+.Info{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(42, 68, 111);
+    color: white;
+    background-size: 100% 100%;
+}
+.InfoText1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    top: 10%;
+}
+
+.ContentBox{
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.Section2{
+    background-color: rgb(243,240,240);
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    align-content: center;    
+}
+
+.Section2Heading{
+    padding-top: 40px;
+    color: royalblue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Section2Heading2{
+    font-size: 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .WhatWeDo{
+
+} */
+
+.Section2Content{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 19px;
+}
+
+.Box{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+
+.Box:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* .WhatWeDoText{
+
+} */
+
+/* .Segment3{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: ;
+} */
+
+.Section3Header{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: royalblue;
+    padding-bottom: 15px;
+}
+
+.Section3Header2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.swiper{
+    width: 100%;
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 20em;
+    height: 90%;
+    background-color: rgb(81,161,231);
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0,0,0,.2);
+    padding: 2em 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2em;
+}
+
+.swiper-slide:not(.swiper-slide-active){
+    filter: blur(1px);
+}
+
+.card_image{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding: 3px;
+    margin-bottom: 2em;
+}
+
+.card_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_title{
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+}
+
+.card_name{
+    color: royalblue;
+}
+
+.card_text{
+    text-align: center;
+    font-size: 1.1em;
+    margin: 1em 0;
+}
+
+.card_btn{
+    background-color: royalblue;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+}
+
+
+@keyframes slideTestimonials{
+    from{
+        transform: translateX(0);
+    } to {
+        transform: translateX(-100%);
+    }
+}
+
+/* .Segment4{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    width: 100%;
+} */
+
+.Segment5{
+    height: 580px;
+    color: white;
+    position: relative;
+}
+
+.Segment5Text{
+    position: absolute;
+    top: 50px;
+    left: 762.655px;
+    font-family: 'Montserrat', sans-serif;
+    color: royalblue;
+}
+
+.Segment5Heading{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: none;
+    transition: all .3s ease-in-out;
+}
+
+.ImageCarousel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.CarouselView{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 44px 0;
+    transition: all .25s ease-in;
+}
+
+.CarouselView .ImageList {
+    max-width: 950px;
+    width: 70vw;
+    padding: 50px 10px;
+    display: flex;
+    scroll-behavior: smooth;
+    gap: 48px;
+    transition: all .25s ease-in;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+img#item{
+    height: 190px;
+    width: 20%;
+}
+.ImageList{
+    display: flex;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.ImageList::-webkit-scrollbar{
+    display: none;
+}
+
+.prev-btn{
+    background: none;
+    cursor: pointer;
+}
+
+.next-btn{
+    cursor: pointer;
+}
+
+.item{
+    scroll-snap-align: center;
+    min-width: 120px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.Segment6{
+    background-color: rgb(42, 68, 111);
+    height: 400px;
+    position: relative;
+    display: flex;
+}
+
+.Segment6Text1{
+    width: 20%;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.Segment6Text1Heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.Segment6Text1Content{
+    font-family: monospace;
+    color: rgb(210, 208, 208);
+}
+
+.Segment6Text2{
+    width: 20%;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.Segment6Text2Heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.Segment6Text2Content{
+    font-family: monospace;
+    color: rgb(210,208,208);
+    list-style: none;
+}
+
+.Segment6Text2Content li{
+    margin: 5px;
+}
+
+.Segment6Text3{
+    width: 20%;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+.Segment6Text3Heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.Segment6Text3Content{
+    font-family: monospace;
+    color: rgb(210, 208, 208);
+    list-style: none;
+}
+.Segment6Text3Content li{
+    margin: 5px;
+}
+
+.Segment6Text4{
+    width: 20%;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+
+.Segment6Text4Heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.Segment6Text4Content{
+    font-family: monospace;
+    color: rgb(210, 208, 208);
+}
