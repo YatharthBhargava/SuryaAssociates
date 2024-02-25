@@ -5,6 +5,77 @@
     box-sizing: border-box;
 }
 
+.PageHeader{
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(42, 68, 111);
+    /* background: linear-gradient(to bottom, #2a446f, #33405b); */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.FirstCompartment{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+}
+.FirstCompartmentContent{
+    display: flex;
+    width: 50%;
+    
+}
+.FirstCompartmentContent i{
+    padding-top: 1%;
+    
+}
+.FirstCompartmentContent p{
+    padding-left: 5%;
+    
+}
+.SecondCompartment{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+}
+.SecondCompartmentContent{
+    display: flex;
+    width: 50%;
+    
+}
+.SecondCompartmentContent i{
+    padding-top: 0.5%;
+    
+}
+.SecondCompartmentContent p{
+    padding-left: 5%;
+    
+}
+.ThirdCompartment{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}
+.ThirdCompartmentContent{
+    display: flex;
+    width: 50%;
+}
+.EmptyDiv{
+    width: 50%;
+}
+.ThirdCompartmentContent i{
+    padding-top: 0.5%;
+    
+}
+.ThirdCompartmentContent p{
+    padding-left: 2%;
+    
+}
 .Header{
     padding-left: 10px;
     padding-top: 10px;
