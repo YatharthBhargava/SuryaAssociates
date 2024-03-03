@@ -111,13 +111,122 @@
     height: 100%;
     width: auto;
 }
+.LinksBox{
+    display: flex;
+    right: 0;
+}
+.EmptyBox{
+    width: 35%;
+}
+.Home{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.Home a{
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.Home a:visited{
+    color: white;
+}
+.AboutUs{
+    display: flex;
+    align-items: center;
+    font-size:large;
+    padding: 5%;
+}
+.AboutUs a{
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.AboutUs a:visited{
+    color: white;
+}
+.Services{
+    display: flex;
+    align-items: center;
+    font-size:large;
+    padding: 5%;
+}
+.Services a{
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.Services a:visited{
+    color: white;
+}
+.OurTeam{
+    display: flex;
+    align-items: center;
+    font-size:large;
+    padding: 5%;
+}
+.OurTeam a{
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.OurTeam a:visited{
+    color: white;
+}
+.Clients{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    padding: 5%;
+}
+.Clients a{
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.Clients a:visited{
+    color: white;
+}
+.ContactUs{
+    display: flex;
+    align-items: center;
+    font-size:large;
+    padding: 5%;
+}
+.ContactUs a{
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.ContactUs a:visited{
+    color: white;
+}
 .GrayLine{
     height: 1px;
     background-color: gray;
 }
 
+/*AboutUsPage*/
+.AboutUsContent{
+    background-color: white;
+}
+.AboutUsHeading{
+    color: rgb(42, 68, 111);
+    font-size: 350%;
+    padding: 5%;
+    text-align: center;
+}
+.AboutUsContentText{
+    font-size: 150%;
+    color: rgb(42, 68, 111);
+    padding: 5%;
+    padding-top: 0;
+    line-height: 1.5;
+    text-align: center;
+}
 .Info{
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-color: rgb(42, 68, 111);
     color: white;
